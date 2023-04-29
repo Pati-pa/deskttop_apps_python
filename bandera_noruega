@@ -1,0 +1,78 @@
+from tkinter import *
+ventana_principal = Tk()
+ventana_principal.title("Bandera")
+ventana_principal.geometry("400x360")
+ventana_principal.resizable(0,0)
+
+ventana_principal.config(bg="red")
+
+#-----------------------
+#Agregar frame blue
+#---------------------------
+mi_frame = Frame(ventana_principal)
+mi_frame.place(x=0, y=150)
+mi_frame.config(bg="midnight blue")
+mi_frame.config(width="500", height="50")
+
+mi_frame= Frame(ventana_principal)
+mi_frame.place(x=100, y=0)
+mi_frame.config(bg="midnight blue")
+mi_frame.config(width="50", height="500")
+#----------------------------
+#Un frame para el blanco
+#----------------------------
+frame_white= Frame(ventana_principal)
+frame_white.place(x=75, y=0)
+frame_white.config(bg="white")
+frame_white.config(width="25", height="150")
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=0, y=125)
+frame_white.config(bg="white")
+frame_white.config(width="100", height="25")
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=150, y=125)
+frame_white.config(bg="white")
+frame_white.config(width="300", height="25")
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=150, y=0)
+frame_white.config(bg="white")
+frame_white.config(width="25", height="150")
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=150, y=125)
+frame_white.config(bg="white")
+frame_white.config(width="300", height="25")
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=150, y=0)
+frame_white.config(bg="white")
+frame_white.config(width="25", height="150")
+#ultimos 4 blancos 
+frame_white= Frame(ventana_principal)
+frame_white.place(x=150, y=200)
+frame_white.config(bg="white")
+frame_white.config(width="300", height="25")
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=150, y=220)
+frame_white.config(bg="white")
+frame_white.config(width="25", height="180")
+
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=0, y=200)
+frame_white.config(bg="white")
+frame_white.config(width="100", height="25")
+
+frame_white= Frame(ventana_principal)
+frame_white.place(x=75, y=200)
+frame_white.config(bg="white")
+frame_white.config(width="25", height="200")
+
+
+
+
+ventana_principal.mainloop()
